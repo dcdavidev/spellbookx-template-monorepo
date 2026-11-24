@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    allow:
+      - dependency-name: turbo
+    commit-message:
+      prefix: chore
+      include: scope
+    labels:
+      - dependencies
