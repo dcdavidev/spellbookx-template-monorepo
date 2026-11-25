@@ -1,7 +1,7 @@
 # greet
 
 ```ts
-import { greet } from '@workspace/greet';
+import { greet } from 'greet';
 
 greet('Ada'); // "Hello, Ada!"
 ```
